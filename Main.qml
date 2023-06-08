@@ -37,7 +37,7 @@ PlasmaCore.ColorScope {
 
     property string notificationMessage
     property string generalFontColor: "white"
-    property int generalFontSize: config.FontPointSize ? config.FontPointSize : root.height / 75
+    property int generalFontSize: config.FontPointSize ? config.FontPointSize : root.height / 63
 
     LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.RightToLeft
     LayoutMirroring.childrenInherit: true
